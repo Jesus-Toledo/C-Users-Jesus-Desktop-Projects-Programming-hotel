@@ -1,0 +1,46 @@
+.hero {
+  position: relative;
+  min-height: 100vh; /* Mobile first */
+  background-image: url(hero_hotel.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero .container {
+  z-index: 2;
+}
+
+/*-------------GALLERY SECTION -------------*/
+.gallery-img {
+  height: 280px;
+  object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .gallery-img {
+    height: 420px;
+  }
+}
+
+/*-------------  ROOMS  -------------*/
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+/*-------------Hero secundary-------------*/
+
+.hero-reserva {
+  min-height: 40vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(hero_secundary.jpg);
+  background-size: cover;
+  background-position: center;
+}
