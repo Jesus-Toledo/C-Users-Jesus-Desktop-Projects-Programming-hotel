@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   min-height: 100vh; /* Mobile first */
-  background-image: url(hero_hotel.jpg);
+  background-image: url(images/hero_hotel.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -14,6 +14,13 @@
 
 .hero .container {
   z-index: 2;
+}
+/*-------------NAVBAR HOVER-------------*/
+.custom-hover:hover {
+  background-color: #0d6efd;
+  border-radius: 5px;
+  transform: scale(1.05);
+  transition: all 0.2s;
 }
 
 /*-------------GALLERY SECTION -------------*/
@@ -40,7 +47,7 @@
   min-height: 40vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(hero_secundary.jpg);
+    url(images/hero_secundary.jpg);
   background-size: cover;
   background-position: center;
 }
